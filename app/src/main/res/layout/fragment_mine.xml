@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:background="#fff">
+
+        <view.WaveView
+            android:id="@+id/wv"
+            android:layout_width="match_parent"
+            android:layout_height="40px"
+            android:layout_alignParentBottom="true"
+            app:wave_color="#7fd7c1" />
+
+        <ImageView
+            android:id="@+id/img_cursor"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/icon" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#7fd7c1" />
+
+</LinearLayout>
